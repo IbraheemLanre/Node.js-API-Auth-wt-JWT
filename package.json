@@ -1,0 +1,31 @@
+{
+  "name": "Node.js-API-Auth-wt-JWT",
+  "version": "1.0.0",
+  "description": "JS Backend Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbraheemLanre/Node.js-API-Auth-wt-JWT.git"
+  },
+  "keywords": [],
+  "author": "Ibraheem Ola-Adua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IbraheemLanre/Node.js-API-Auth-wt-JWT/issues"
+  },
+  "homepage": "https://github.com/IbraheemLanre/Node.js-API-Auth-wt-JWT#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
